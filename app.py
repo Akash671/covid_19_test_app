@@ -49,16 +49,16 @@ def predict():
      prediction = model.predict(final_features)
      #output=""
      if prediction[0]==0:
-       output="Test Is Negative"
+       output="Test is Negative"
      else:
-       output='Test Is Positive'
+       output='Test is Positive'
      #output = round(prediction[0], 2)
     
      #return render_template('index.html', prediction_text='CO2 Emission of the vehicle is :{}'.format(output))
-     return render_template('main.html', prediction_text='Your Corona Test Report :{}'.format(output))
+     return render_template('main.html', prediction_text='Your Corona {}'.format(output))
     except:
        output="Test Failed!!!!"
-       return render_template('main.html', prediction_text='Your Corona Test Report :{}'.format(output))
+       return render_template('main.html', prediction_text='Your Corona {}'.format(output))
 
 if __name__ == "__main__":
     app.run(debug=True)
