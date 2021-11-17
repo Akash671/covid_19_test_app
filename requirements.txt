@@ -3,8 +3,6 @@ pandas
 gunicorn
 xgboost
 numpy
-matplotlib.pyplot
-seaborn
 scikit-learn
 pickle4
 sklearn
