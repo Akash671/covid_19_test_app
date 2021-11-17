@@ -2,8 +2,7 @@
 covid-19 test app
 
 #App Live Demo
-<a href="https://covid19testapp.herokuapp.com/predict">Covid-19 Test App</a>
-
+[![Akash](https://img.shields.io/badge/Akash%20Kumar%20(github%20software%20devloper%20member)-violet?style=for-the-badge&logo=heroku&logoColor=purple)](https://covid19testapp.herokuapp.com) 
 
 
 # Covid-19 test application
