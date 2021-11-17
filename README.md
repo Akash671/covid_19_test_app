@@ -2,8 +2,7 @@
 covid-19 test app
 
 #App Live Demo
-<a href="https://www.mitmoradabad.edu.in">Students of Moradabad Institute Of Technology Moradabad
-(MIT)</a>
+<a href="https://covid19testapp.herokuapp.com/predict">Covid-19 Test App</a>
 
 
 
