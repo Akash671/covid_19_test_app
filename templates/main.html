@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Covid-19 Test</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+ <div class="login">
+	<h1>Covid-19 Test App</h1>
+     <h3> Enter the following valuse</h3>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="name" placeholder="Enter Your Name" required="required" />
+        <input type="text" name="temp" placeholder="Enter Body Temp.(in cel.)" required="required" />
+		<input type="text" name="age" placeholder="Enter Your Age" required="required" />
+			<input type="text" name="sex" placeholder="Enter Your Gender" required="required" />
+			<input type="text" name="BP" placeholder="Enter Breathing Problem" required="required" />
+			<input type="text" name="NP" placeholder="Enter Nose Problem" required="required" />
+			<input type="text" name="BPP" placeholder="Enter Body Pain" required="required" />
+
+        <button type="submit" class="btn">Predict</button>
+    </form>
+   {{ prediction_text }}
+ </div>
+
+
+</body>
+</html>
