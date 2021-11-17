@@ -1,7 +1,7 @@
 # covid_19_test_app
 
 
-#App Live Demo At-
+#App Live Demo - 
 <br>
 [![Akash](https://img.shields.io/badge/covid%2019%20test%20app-while?style=for-the-badge&logo=heroku&logoColor=black)](https://covid19testapp.herokuapp.com) 
 
