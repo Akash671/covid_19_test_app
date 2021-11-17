@@ -1,8 +1,8 @@
 # covid_19_test_app
 covid-19 test app
 
-#App Live Demo
-[![Akash](https://img.shields.io/badge/Akash%20Kumar%20(github%20software%20devloper%20member)-violet?style=for-the-badge&logo=heroku&logoColor=purple)](https://covid19testapp.herokuapp.com) 
+#App Live Demo At-
+[![Akash](https://img.shields.io/badge/Akash%20Kumar%20(github%20software%20devloper%20member)-violet?style=for-the-badge&logo=heroku&logoColor=violet)](https://covid19testapp.herokuapp.com) 
 
 
 # Covid-19 test application
