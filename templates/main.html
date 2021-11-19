@@ -14,9 +14,10 @@
 
 <body>
  <div class="login">
-	<h1>Covid-19 Test App</h1><h4>(Founder & CEO - Akash Kumar)</h4>
-     <h3> Enter the following valuse</h3>
-
+	<h1>Covid-19 Test App</h1>
+	<h5>         - Akash Kumar 	(Founder & CEO)</h5>
+     <h3> Enter the following values</h3>
+     
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="name" placeholder="Enter Your Name" required="required" />
@@ -27,7 +28,7 @@
 			<input type="text" name="NP" placeholder="Enter Nose Problem(Yes/No)" required="required" />
 			<input type="text" name="BPP" placeholder="Enter Body Pain(Yes/No)" required="required" />
 
-        <button type="submit" class="btn">Predict</button>
+        <button type="submit" class="btn">Start Test</button>
     </form>
    {{ prediction_text }}
  </div>
