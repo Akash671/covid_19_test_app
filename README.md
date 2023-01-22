@@ -67,4 +67,4 @@ Team members:-
 ![Languages Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=abhishek4528)
 -->
 
-****** Thanks you ******
+****** Thank you ******
