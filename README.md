@@ -4,7 +4,7 @@ Covid-19 test app used for digital testing of covid-19 patients.
 
 #App Live Demo - 
 <br>
-[![Covid-19-Test](https://covid-19-test-app-1.onrender.com) 
+(https://covid-19-test-app-1.onrender.com) 
 
 
 
