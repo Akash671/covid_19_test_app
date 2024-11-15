@@ -1,10 +1,10 @@
 # covid 19 test app
 About App:
-Covid-19 test app basically used for digital testing of covid-19 patients.
+Covid-19 test app used for digital testing of covid-19 patients.
 
 #App Live Demo - 
 <br>
-[![Akash](https://img.shields.io/badge/covid%2019%20test%20app-while?style=for-the-badge&logo=heroku&logoColor=black)](https://covid19testapp.herokuapp.com) 
+[![Akash](https://covid-19-test-app-1.onrender.com) 
 
 
 
